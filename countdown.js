@@ -5,7 +5,7 @@ function initializeCountdown(targetDateTime) {
 
   const updateCountdown = () => {
     const now = new Date().getTime();
-    const distance = targetDate - now;
+    const distance = now - targetDate;
 
     if (distance >= 0) {
       const years = Math.floor(distance / (1000 * 60 * 60 * 24 * 365));
@@ -56,4 +56,4 @@ function initializeCountdown(targetDateTime) {
 }
 
 // Initialize the countdown with the target date and time
-initializeCountdown('September 27, 1100 18:00:00');
+initializeCountdown('July 26, 1000 18:00:00');
