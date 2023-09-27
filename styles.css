@@ -1,13 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url('https://github.com/protullen/PROTULLEN-/raw/main/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
 
 header {
     text-align: center;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 30px 0;
 }
