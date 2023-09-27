@@ -13,9 +13,9 @@ header {
 }
 
 header img {
-    width: 150px; /* Adjust the size as needed */
-    height: 150px; /* Adjust the size as needed */
-    border-radius: 50%; /* To make the image round */
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 
 .social-media {
@@ -35,4 +35,24 @@ header img {
 
 .social-media a:hover {
     background-color: #444;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
+
+    .social-media a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
 }
