@@ -35,17 +35,25 @@ h1 {
     margin-top: 20px;
 }
 
-.social-media a {
-    display: inline-block;
-    margin: 5px;
-    padding: 10px 20px;
+.social-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.social-row a {
+    flex-basis: calc(50% - 10px); /* 50% width with 10px spacing in between */
+    margin: 0;
+    padding: 10px 0;
     background-color: #333;
     color: #fff;
     text-decoration: none;
+    text-align: center;
     border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-.social-media a:hover {
+.social-row a:hover {
     background-color: #444;
 }
 
@@ -58,8 +66,8 @@ h1 {
         font-size: 24px;
     }
 
-    .social-media a {
-        padding: 5px 10px;
+    .social-row a {
+        padding: 5px 0;
         font-size: 14px;
     }
 }
