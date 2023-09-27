@@ -54,6 +54,6 @@ function initializeCountdown(targetDateTime) {
     countdownSection.appendChild(countdownElement);
   }
 }
-
+ 
 // Initialize the countdown with the target date and time
-initializeCountdown('July 26, 1000 18:00:00');
+initializeCountdown('September 27, 2023 16:46:00');
