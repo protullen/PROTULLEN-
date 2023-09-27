@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://github.com/protullen/PROTULLEN-/raw/main/background.jpg');
+    background-image: url('https://i.ibb.co/NjMtQ3T/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 
 header {
