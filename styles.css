@@ -61,6 +61,38 @@ h1 {
     background-color: #444;
 }
 
+
+/* Your existing CSS styles */
+
+.countdown-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#countdown {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.countdown-item {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.countdown-value {
+    font-size: 36px;
+}
+
+.countdown-label {
+    font-size: 14px;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 768px) {
     .profile-photo img {
         max-width: 100px;
@@ -75,3 +107,4 @@ h1 {
         font-size: 14px;
     }
 }
+
