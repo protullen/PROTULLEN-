@@ -69,22 +69,19 @@ h1 {
     margin-top: 20px;
 }
 
-#countdown {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    display: inline-block;
-    font-size: 24px;
-}
-
 .countdown-item {
     display: inline-block;
     margin: 0 20px;
+    text-align: center;
 }
 
 .countdown-value {
     font-size: 36px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
 }
 
 .countdown-label {
@@ -92,6 +89,7 @@ h1 {
     opacity: 0.7;
     text-transform: uppercase;
 }
+
 
 @media screen and (max-width: 768px) {
     .profile-photo img {
